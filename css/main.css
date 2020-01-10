@@ -70,7 +70,7 @@ body {
   font-weight: 700;
   margin-left: 30px;
   margin-top: 30px;
-  width: fit-content;
+  width: max-content;
   color: #F5F0E5;
   text-transform: uppercase;
   display: inline;
@@ -346,6 +346,45 @@ body {
   width: 50%;
 }
 
+.hemoder .workDetail-main {
+  width: 49%;
+}
+
+
+.hemoder .flex-col.prototype {
+
+  text-align: center;
+}
+
+.hemoder .workDetail-main_full.flex {
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-col {
+  flex-basis: 47%;
+  padding-bottom: 1em;
+}
+
+.flex-col-30 {
+  flex-basis: 40%;
+  margin-bottom: 1em;
+}
+.flex-col-65 {
+  flex-basis: 55%;
+  margin-bottom: 1em;
+}
+
+
+.hemoder .workDetail-col {
+  width: 30%;
+  padding: 0.3em;
+  text-align: left;
+}
+
+
 .bio .workDetail-main {
   width: 55%;
   order: 2;
@@ -355,10 +394,32 @@ body {
   width: 45%;
 }
 
-.workDetail-main h2 , .cmifr h2{
+.workDetail-main h2 , .cmifr h2 , .hemoder .workDetail-main h2 , .hemoder .workDetail-main_full h2 {
   font-size: 1.5em;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.hemoder .workDetail-col h3 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hemoder .workDetail-col p{
+  font-size: 1em;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.hemoder .workDetail-col h4{
+  text-decoration: underline;
+}
+.hemoder .workDetail-col li{
+  font-size: 0.9875em;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .cmifr h2 {
@@ -371,12 +432,28 @@ body {
   font-weight: 300;
 }
 
-.workDetail-main p{
+.workDetail-main p , .hemoder .workDetail-main p , .hemoder .workDetail-main_full p , .hemoder {
   font-size: 1.125em;
   line-height: 1.5em;
   font-weight: 400;
   margin-bottom: 20px;
 }
+ p.workDetail-text{
+  width: 50%;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.hemoder .workDetail-main_full p.lead{
+  font-size: 1.5em;
+  line-height: 1.65em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+
 .workDetail-main li {
   margin-bottom: 15px;
   font-weight: 400;
@@ -398,6 +475,8 @@ body {
   width: 45%;
   text-align: center;
 }
+
+
 .bio .workDetail-col {
   width: 40%;
   order: 1;
