@@ -980,7 +980,7 @@ body {
 }
 /* ONESHOT */
 
-.oneshot .workDetail-main {
+.oneshot .workDetail-main , .cmifr .workDetail-main {
   width: 100%;
   display: flex;
   font-size: 1em;
@@ -988,29 +988,88 @@ body {
   justify-content: space-between;
 }
 
-.oneshot .flex-col {
+.oneshot .flex-col , .cmifr .flex-col {
     flex-basis: 100%;
-    /* padding-bottom: 1em; */
+    padding-bottom: 0em;
 }
-.oneshot .flex-col-2 {
+.oneshot .flex-col-2 , .cmifr .flex-col-2 {
     flex-basis: 47%;
     padding-bottom: 1em;
 }
 
-.oneshot .flex-col-3 {
+.oneshot .flex-col-3 , .cmifr .flex-col-3 {
     flex-basis: 60%;
     padding-bottom: 1em;
 }
 
-.oneshot .flex-col-1 {
+.oneshot .flex-col-1 , .cmifr .flex-col-1 {
     flex-basis: 30%;
     padding-bottom: 1em;
+}
+.cmifr .flex-col-1.goal {
+  text-align: center;
+  padding-bottom: 0.25em;
+}
+
+.cmifr .flex-col-1.goal img{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+.cmifr .flex-col-1.goal h4{
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.cmifr .flex-col-1.stage {
+  margin-top: 20px;
+}
+
+
+.cmifr .flex-col-1.stage img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+.cmifr .flex-col-1.stage h4{
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.cmifr .flex-col-1.stage ul{
+  margin-left: 13px;
+}
+
+.cmifr .flex-col-1.goal p{
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.cmifr .flex-col-2.list {
+  padding-bottom: 0em;
+}
+
+.cmifr h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cmifr h3 a:hover {
+  color: #fcc694;
+
 }
 
 .oneshot .flex-col-2.profiles{
   align-self: flex-end;
 }
-.oneshot .flex-col-2.images{
+.oneshot .flex-col-2.images , .cmifr .flex-col-2.images{
   align-self: center;
 }
 .oneshot .flex-col-2.feedback p{
@@ -1023,7 +1082,7 @@ body {
 line-height: 1em;
 }
 
-.oneshot p.lead {
+.oneshot p.lead , .cmifr p.lead {
     font-size: 1.5em;
     line-height: 1.35em;
     font-weight: 300;
