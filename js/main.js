@@ -27,9 +27,9 @@
             width: 320,
             cols: 1
         }],
-        caption: 'moveRight',
+        caption: 'fadeIn',
         displayType: 'fadeIn',
-        displayTypeSpeed: 100,
+        displayTypeSpeed: 1000,
 
         // SINGLE PAGE
 

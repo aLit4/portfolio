@@ -33,7 +33,7 @@ body {
 .bio .cbp-l-caption-title , .contact .cbp-l-caption-title {
   font-family: 'Rufina', serif;
   color: #F5F0E5;
-  font-size: 2.75em;
+  font-size: 2.75rem;
   font-weight: 400;
   margin-left: 30px;
   margin-top: 65px;
@@ -42,8 +42,8 @@ body {
 
 
 .bio .cbp-l-caption-desc , .contact .cbp-l-caption-desc{
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
   font-weight: 300;
   margin-left: 30px;
   width: 50%;
@@ -77,6 +77,7 @@ body {
 
 }
 
+
 .bio a.cbp-l-caption-btn {
  transition: all ease-out .2s;
 }
@@ -86,6 +87,22 @@ body {
 
 }
 
+p.case-cta {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 5px 10px;
+  color: #F5F0E5;
+  text-transform: uppercase;
+  width: max-content;
+  display: block;
+  border: 2px solid #F5F0E5;
+}
+
+.hemoder p.case-cta {
+    background-color: rgba(210, 85, 55, 0.7);
+  }
 
 .contact .icon-group{
   /* align-self: flex-end; */
@@ -115,7 +132,7 @@ body {
 .work .cbp-l-caption-title {
   font-family: 'Rufina', serif;
   color: #D35538;
-  font-size: 2.75em;
+  font-size: 2.75rem;
   font-weight: 400;
 }
 
@@ -125,7 +142,7 @@ body {
 .hemoder .cbp-l-caption-title , .oneshot .cbp-l-caption-title , .cmifr .cbp-l-caption-title , .blau .cbp-l-caption-title {
   font-family: 'Lato', sans-serif;
   color: #F5F0E5;
-  font-size: 1.75em;
+  font-size: 1.75rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 30px;
@@ -138,8 +155,9 @@ body {
 .hemoder .cbp-l-caption-desc , .oneshot .cbp-l-caption-desc , .cmifr .cbp-l-caption-desc , .blau .cbp-l-caption-desc {
   font-family: 'Lato', sans-serif;
   color: #F5F0E5;
-  font-size: 1.25em;
-  line-height: 1.5em;
+  /* font-size: 22px; */
+  font-size: 1.35rem;
+  line-height: 1.85rem;
   font-weight: 400;
   margin-left: 30px;
   width: 70%;
@@ -172,7 +190,7 @@ body {
 
 .gallery .cbp-l-caption-title , .article .cbp-l-caption-title{
   font-family: 'Rufina', serif;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 400;
   margin-bottom: 30px;
   padding: 0 30px;
@@ -191,10 +209,10 @@ body {
 .gallery .cbp-l-caption-desc , .article .cbp-l-caption-desc{
   font-family: 'Rufina', serif;
   font-weight: 400;
-  font-size: 1.125em;
+  font-size: 1.2rem;
   font-weight: 400;
   padding: 0 30px;
-  line-height: 1.35em;
+  line-height: 1.65rem;
   text-align: center;
 }
 
@@ -312,14 +330,14 @@ body {
 
 
 .workDetail-intro h1{
-  font-size: 2em;
+  font-size: 2.125rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .workDetail-intro p{
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.7rem;
+  line-height: 2.125rem;
   font-weight: 300;
 
 }
@@ -399,20 +417,20 @@ body {
 }
 
 .workDetail-main h2 , .cmifr h2 , .hemoder .workDetail-main h2 , .hemoder .workDetail-main_full h2 {
-  font-size: 1.5em;
+  font-size: 1.65rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .hemoder .workDetail-col h3 {
-  font-size: 1em;
+  font-size: 1.125rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .hemoder .workDetail-col p{
-  font-size: 1em;
-  line-height: 1.25em;
+  font-size: 1rem;
+  line-height: 1.25rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -420,8 +438,8 @@ body {
   text-decoration: underline;
 }
 .hemoder .workDetail-col li{
-  font-size: 0.9875em;
-  line-height: 1.25em;
+  font-size: 0.9875rem;
+  line-height: 1.25rem;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -437,22 +455,22 @@ body {
 }
 
 .workDetail-main p , .hemoder .workDetail-main p , .hemoder .workDetail-main_full p , .hemoder {
-  font-size: 1.125em;
-  line-height: 1.5em;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
  p.workDetail-text{
   width: 50%;
-  font-size: 1.125em;
-  line-height: 1.5em;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
 .hemoder .workDetail-main_full p.lead{
-  font-size: 1.5em;
-  line-height: 1.65em;
+  font-size: 1.5rem;
+  line-height: 1.65rem;
   font-weight: 300;
   margin-bottom: 20px;
 }
@@ -987,7 +1005,7 @@ body {
 .oneshot .workDetail-main , .cmifr .workDetail-main {
   width: 100%;
   display: flex;
-  font-size: 1em;
+  font-size: 1rem;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -1025,7 +1043,7 @@ body {
   margin: 0;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .cmifr .flex-col-1.stage {
@@ -1043,7 +1061,7 @@ body {
   margin: 0;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1rem;
   display: inline-block;
 }
 
@@ -1053,7 +1071,7 @@ body {
 
 .cmifr .flex-col-1.goal p{
   margin-top: 5px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .cmifr .flex-col-2.list {
@@ -1083,16 +1101,23 @@ body {
 }
 .oneshot .flex-col-2.feedback li{
   margin-bottom: 7px;
-line-height: 1em;
+line-height: 1.25rem;
 }
 
 .oneshot p.lead , .cmifr p.lead {
-    font-size: 1.5em;
-    line-height: 1.35em;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     font-weight: 300;
     /* margin-bottom: 20px; */
 }
 .oneshot .lead.now {
   border: 1px solid #E7D6A0;
   padding: 1em;
+}
+
+.cbp img.icon_home {
+  display: inline-block;
+  width: 20px;
+  margin-left: 10px;
+  border-bottom: none;
 }
