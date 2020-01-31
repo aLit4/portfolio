@@ -3,7 +3,7 @@ body {
   margin: 0px;
 }
 
-
+/* HOME */
 
 .hemoder .cbp-l-caption-detail , .bio .cbp-l-caption-detail , .cmifr .cbp-l-caption-detail ,  .oneshot .cbp-l-caption-detail ,  .blau .cbp-l-caption-detail , .contact .cbp-l-caption-detail {
   position: absolute;
@@ -28,7 +28,7 @@ body {
 }
 
 
-/* BIO  & CONTACT */
+/* home BIO  & CONTACT */
 
 .bio .cbp-l-caption-title , .contact .cbp-l-caption-title {
   font-family: 'Rufina', serif;
