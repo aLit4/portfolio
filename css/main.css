@@ -1,7 +1,19 @@
-
 body {
   margin: 0px;
 }
+
+@media screen and (min-width: 1441px) {
+  body {
+    background-color: #F5F0E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #js-grid-full-width {
+    width: 1440px;
+  }
+}
+
 
 /* HOME */
 
@@ -969,19 +981,42 @@ p.case-cta {
 
   .cmifr .cbp-caption-defaultWrap{
     width: 100%;
-    height: 380px;
+    height: 450px;
     background-color: #D38238;
   }
 
-  .oneshot .cbp-caption-defaultWrap , .blau .cbp-caption-defaultWrap{
+
+
+  .oneshot .cbp-caption-defaultWrap , .blau .cbp-caption-defaultWrap, {
     width: 100%;
-    height: 380px;
+    /* height: 380px; */
   }
 
   .contact .cbp-l-caption-title {
     line-height: 1em;
     margin-top: 35px;
   }
+
+  img.imgContact  {
+    display: none;
+  }
+
+  .contact .cbp-lazyload:after {
+    display: none;
+
+  }
+  .contact .cbp-l-caption-detail {
+    width:80%;
+  }
+
+  .cbp .hemoder img, .cbp .cmifr img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
   .workDetail-main {
     width: 90%;
   }
