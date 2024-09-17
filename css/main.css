@@ -424,6 +424,11 @@ p.case-cta {
   order: 2;
 }
 
+.bio .workDetail-main.full-width {
+  width: 100%;
+  /* order: 2; */
+}
+
 .cmifr .workDetail-main {
   width: 45%;
 }
