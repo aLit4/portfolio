@@ -314,6 +314,11 @@ p.case-cta {
   height: 100%;
 }
 
+.workDetail.bio {
+  background-color: #345953;
+  height: 100%;
+}
+
 .workDetail {
   background-color: #D35538;
   padding-top: 90px;
